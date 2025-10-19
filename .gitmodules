@@ -1,0 +1,3 @@
+[submodule "lib/cpp-menu"]
+	path = lib/cpp-menu
+	url = https://github.com/camerontheross/cpp-menu
