@@ -4,4 +4,14 @@
  * Last Edit  : October 19
  */
 
-#include
+#include "MenuLib/Menu.hpp"
+#include "MenuLib/Option.hpp"
+
+int main()
+{
+	// initialize the main menu
+	MenuLib::Menu mainMenu("Main Menu", true);
+
+	mainMenu.run();
+	return 0;
+}
